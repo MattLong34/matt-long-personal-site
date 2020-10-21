@@ -20,6 +20,7 @@ hr {
 .section-title {
 	padding-top: 50px;
 	font-size: 2rem;
+	font-weight: 700;
 }
 
 .card-container {
@@ -46,6 +47,7 @@ hr {
 
 .card h3 {
 	font-size: 2rem;
+	font-weight: 400;
 }
 
 .card h4 {
@@ -61,7 +63,7 @@ hr {
 .card a {
 	font-size: 1rem;
 	font-weight: 400;
-	text-decoration: none;
+	/* text-decoration: none; */
 	text-transform: uppercase;
 	/* padding: 10px; */
 }
@@ -117,7 +119,7 @@ h2 {
 /* About Section */
 
 #about {
-	height: 50vh;
+	height: 40vh;
 }
 
 /* Skills Section */
