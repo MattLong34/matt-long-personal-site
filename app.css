@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+#hero {
+	height: 50vh;
+}
+
+#about {
+	height: 50vh;
+}
+
+#skills {
+	height: 50vh;
+}
+
+#projects {
+	height: 50vh;
+}
+
+#blogs {
+	height: 50vh;
+}
+
+#contact {
+	height: 50vh;
+}
+
+.nav-link {
+	color: #4d5656;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* .nav-link:visited {
+	color: #006600;
+} */
+
+.nav-link:hover {
+	color: #ff781f;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Hero Section */
+
+h1 {
+	font-size: 5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
