@@ -9,11 +9,11 @@
 <body>
 
     <header id="navbar">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#skills" class="nav-link">Skills</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#blogs" class="nav-link">Blogs</a>
-        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#about" class="nav-link link">About</a>
+        <a href="#skills" class="nav-link link">Skills</a>
+        <a href="#projects" class="nav-link link">Projects</a>
+        <a href="#blogs" class="nav-link link">Blogs</a>
+        <a href="#contact" class="nav-link link">Contact</a>
     </header>
 
     <section id="hero">
@@ -29,7 +29,7 @@
         <p>I love building memorable, clean, and highly usable projects.</p>
         <p>I have experience managing dozens of employees, hundreds of volunteers, and over $2 million in small business revenue and non-profit program budets.</p>
         <p>I'm an enthusiastic hiker, an avid reader, and a fortunate husband and father.</p>
-        <a href="#contact">Let's get in touch.</a>
+        <a href="#contact" class="link">Let's get in touch.</a>
     </section>
 
     <section id="skills" class="display">
@@ -57,9 +57,9 @@
                 <h4>Find and compare Electric Vehicles</h4>
                 <hr>
                 <h5>React | Ruby on Rails | Material UI</h5>
-                <a href="https://get-electrified.web.app/">Live Site</a>
-                <a href="">[YouTube Demo]</a>
-                <a href="https://github.com/MattLong34/electrify-frontend">GitHub</a>
+                <a href="https://get-electrified.web.app/" class="link">Live Site</a>
+                <a href="" class="link">[YouTube Demo]</a>
+                <a href="https://github.com/MattLong34/electrify-frontend" class="link">GitHub</a>
             </div>
             <div class="card">
                 <img src="src/Rocky Mountain National Park.jpeg" alt="Electrify Project Thumbnail">
@@ -67,9 +67,9 @@
                 <h4>Explore trails within Rocky Mountain National Park</h4>
                 <hr>
                 <h5>Javascript | React | Hiking Project API</h5>
-                <a href="">Live Site</a>
-                <a href="">[YouTube Demo]</a>
-                <a href="">GitHub</a>
+                <a href="" class="link">Live Site</a>
+                <a href="" class="link">[YouTube Demo]</a>
+                <a href="" class="link">GitHub</a>
             </div>
             <div class="card">
                 <img src="src/Cash Castle Screenshot.png" alt="Electrify Project Thumbnail">
@@ -77,9 +77,9 @@
                 <h4>Your personal finance sandbox</h4>
                 <hr>
                 <h5>Javascript | Bootstrap 4 | Chart.js</h5>
-                <a href="https://cash-castle.web.app/">Live Site</a>
-                <a href="https://www.youtube.com/watch?v=BGUNhfzaHNI&t">YouTube Demo</a>
-                <a href="https://github.com/MattLong34/cash-castle-frontend">GitHub</a>
+                <a href="https://cash-castle.web.app/" class="link">Live Site</a>
+                <a href="https://www.youtube.com/watch?v=BGUNhfzaHNI&t" class="link">YouTube Demo</a>
+                <a href="https://github.com/MattLong34/cash-castle-frontend" class="link">GitHub</a>
             </div>
         </div>
     </section>
@@ -93,19 +93,19 @@
                 <img src="src/MediumMaze.jpeg" alt="Maze with people navigating it">
                 <h3>Junior Devs: Don't Make Me Think!</h3>
                 <h4>5 Takeaways from Steve Krug's Classic UI/UX Guidebook</h4>
-                <a href="https://levelup.gitconnected.com/junior-devs-dont-make-me-think-6bfdbddc78f3">Read on Medium</a>
+                <a href="https://levelup.gitconnected.com/junior-devs-dont-make-me-think-6bfdbddc78f3" class="link">Read on Medium</a>
             </div>
             <div class="card">
                 <img src="src/Medium7Steps.jpeg" alt="Forest trail">
                 <h3>7 Steps to Create an API in Rails</h3>
                 <h4>It's easier than you think!</h4>
-                <a href="https://levelup.gitconnected.com/7-steps-to-create-an-api-in-rails-2f984c7c4286">Read on Medium</a>
+                <a href="https://levelup.gitconnected.com/7-steps-to-create-an-api-in-rails-2f984c7c4286" class="link">Read on Medium</a>
             </div>
             <div class="card">
                 <img src="src/MediumSaveTheWorld.jpeg" alt="Man drinking coffee while sitting at computer">
                 <h3>Save the World with Readable Code</h3>
                 <h4>A Junior Developer's guide to readability</h4>
-                <a href="https://levelup.gitconnected.com/save-the-world-with-readable-code-2f55dbdade46">Read on Medium</a>
+                <a href="https://levelup.gitconnected.com/save-the-world-with-readable-code-2f55dbdade46" class="link">Read on Medium</a>
             </div>
         </div>
     </section>
@@ -113,14 +113,24 @@
     <section id="contact" class="display">
         <p class="section-title">LET'S CHAT</p>
         <hr>
-        <ul>
-            <li>Email</li>
-            <li>LinkedIn</li>
-            <li>GitHub</li>
-            <li>Medium</li>
-            <li>YouTube</li>
-            <li>Resume</li>
-        </ul>
+        <div id="contact-list">
+            <img src="src/logo-email.png" alt="Email Logo" class="contact-logo">
+            <!-- <a href="">mdlong34@gmail.com</a> -->
+            <p>mdlong34@gmail.com</p>
+            <img src="src/logo-linkedin.png" alt="LinkedIn Logo" class="contact-logo">
+            <a href="https://www.linkedin.com/in/mattlong34/" class="link">linkedin.com/in/MattLong34</a>
+            <img src="src/logo-github.png" alt="GitHub Logo" class="contact-logo">
+            <a href="https://github.com/MattLong34" class="link">github.com/MattLong34</a>
+        </div>
+        <div class="contact-list">
+            <img src="src/logo-resume.png" alt="Resume Logo" class="contact-logo">
+            <a href="" class="link">Resume Link</a>
+            <!-- <p>Resume Link</p> -->
+            <img src="src/logo-youtube.png" alt="YouTube Logo" class="contact-logo">
+            <a href="https://www.youtube.com/watch?v=BGUNhfzaHNI&list=PLrKrG671rcSPrIJQVRT_TqS7gknxERwyq" class="link">YouTube Project Demos</a>
+            <img src="src/logo-medium.png" alt="Medium Logo" class="contact-logo">
+            <a href="https://medium.com/@MattLong34" class="link">medium.com/@MattLong34</a>
+        </div>
     </section>
 
     <footer>

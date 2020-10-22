@@ -72,14 +72,6 @@ hr {
 	width: 80%;
 }
 
-.card a:visited {
-	color: #4d5656;
-}
-
-.card a:hover {
-	color: #ff781f;
-}
-
 /* Header Section */
 
 #navbar {
@@ -93,11 +85,11 @@ hr {
 	padding: 20px;
 }
 
-.nav-link:visited {
+.link:visited {
 	color: #006600;
 }
 
-.nav-link:hover {
+.link:hover {
 	color: #ff781f;
 }
 
@@ -119,11 +111,7 @@ h2 {
 /* About Section */
 
 #about {
-	height: 40vh;
-}
-
-#about a:visited {
-	color: #4d5656;
+	height: 35vh;
 }
 
 /* Skills Section */
@@ -175,4 +163,20 @@ h2 {
 
 #contact {
 	height: 50vh;
+}
+
+#contact-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	/* background-color: #ff781f; */
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+
+.contact-logo {
+	width: 50px;
+	padding-right: 20px;
+	padding-left: 80px;
 }
