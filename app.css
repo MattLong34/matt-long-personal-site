@@ -95,7 +95,7 @@ hr {
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
-	border-radius: 10px;
+	border-radius: 10px 80px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 25px;
@@ -154,7 +154,7 @@ hr {
 
 #hero {
 	text-align: center;
-	background-color: orange;
+	/* background-color: orange; */
 }
 
 /* About Section */
@@ -171,15 +171,17 @@ hr {
 /* Projects Section */
 
 #projects img {
-	width: 90%;
+	width: 75%;
 	border-radius: 10px;
+	/* border-radius: 10px 100px; */
+
 	border: 1px solid #4d5656;
 }
 
 /* Blogs Section */
 
 #blogs img {
-	width: 90%;
+	width: 75%;
 	border-radius: 10px;
 	border: 1px solid #4d5656;
 }
