@@ -299,6 +299,40 @@ hr {
 	color: #4d5656;
 }
 
-.contact-logo:hover {
-	transform: 1.2;
+.contact-logo-white {
+	color: white;
 }
+
+.contact-item #email-button {
+	border: transparent;
+	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+	background-color: #4d5656;
+}
+
+.contact-item #resume-button {
+	border: transparent;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: #4d5656;
+}
+
+.contact-item p {
+	color: lightgray;
+}
+
+.contact-item button:hover {
+	cursor: pointer;
+}
+
+.contact-item button:focus {
+	outline: none;
+}
+
+.contact-item p {
+	font-size: 10px;
+}
+
+/* .contact-logo:hover {
+	transform: 1.2;
+} */
