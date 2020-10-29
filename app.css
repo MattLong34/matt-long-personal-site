@@ -37,13 +37,17 @@
 	.nav-links.active {
 		display: flex;
 	}
-	.link:hover {
+	/* .link:hover {
 		color: #6d6d6d;
-	}
+	} */
 	#hero {
 		height: 90vh;
 	}
 	.skills-logo {
+		width: 30%;
+		margin: 10% 10% 10% 10%;
+	}
+	.contact-item {
 		width: 30%;
 		margin: 10% 10% 10% 10%;
 	}
@@ -86,9 +90,9 @@
 	.nav-links ul li {
 		padding: 20px 30px;
 	}
-	.link:hover {
+	/* .link:hover {
 		color: #ff781f;
-	}
+	} */
 	.skills-logo {
 		width: 10%;
 		margin: 2.5% 6% 2.5% 6%;
@@ -96,6 +100,13 @@
 	.card {
 		width: 25%;
 		margin: 10% 1% 0% 1%;
+	}
+	#contact-list {
+		margin-left: 10%;
+	}
+	.contact-item {
+		width: 25%;
+		margin: 5% 4% 5% 4%;
 	}
 }
 
@@ -117,6 +128,10 @@
 	}
 	#hero {
 		height: 90vh;
+	}
+	.contact-item {
+		width: 10%;
+		margin: 2% 2% 2% 2%;
 	}
 }
 
@@ -217,6 +232,10 @@ hr {
 	color: #4d5656;
 }
 
+.link:hover {
+	color: #ff781f;
+}
+
 .link:visited {
 	color: #4d5656;
 }
@@ -272,21 +291,14 @@ hr {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: flex-start;
-	/* background-color: #ff781f; */
-	padding-top: 30px;
-	padding-bottom: 80px;
+	justify-content: space-between;
+	padding-top: 5%;
 }
 
 .contact-logo {
-	width: 50px;
-	padding-right: 20px;
-	padding-left: 80px;
+	color: #4d5656;
 }
 
-#up-arrow {
-	width: 50px;
-	padding-left: 50px;
-	/* padding-top: 50px; */
-	padding-bottom: 50px;
+.contact-logo:hover {
+	transform: 1.2;
 }
