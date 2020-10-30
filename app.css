@@ -55,6 +55,9 @@
 		width: 80%;
 		margin: 10% 10% 10% 10%;
 	}
+	.link:visited {
+		color: #4d5656;
+	}
 }
 
 @media (min-width: 768px) {
@@ -87,12 +90,6 @@
 	.nav-links ul li {
 		padding: 20px 30px;
 	}
-	.link:visited {
-		color: #4d5656;
-	}
-	.link:hover {
-		color: #ff781f;
-	}
 	.skills-logo {
 		width: 10%;
 		margin: 2.5% 6% 2.5% 6%;
@@ -123,6 +120,9 @@
 	.contact-item {
 		width: 10%;
 		margin: 2% 2% 2% 2%;
+	}
+	.link:hover {
+		color: #ff781f;
 	}
 }
 
@@ -316,10 +316,12 @@ hr {
 	font-size: 10px;
 }
 
-/* .contact-logo:hover {
-	transform: 1.2;
-} */
-
-/* .card:hover {
+.contact-logo:hover {
 	transform: scale(1.05);
-} */
+	transition: 0.3s;
+}
+
+.contact-item button:hover {
+	transform: scale(1.05);
+	transition: 0.3s;
+}
