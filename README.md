@@ -22,4 +22,4 @@ Visit me at [matt-long.dev](https://matt-long.dev/)
 
 ## License
 
-[Click to view]()
+[Click to view](https://github.com/MattLong34/matt-long-personal-site/blob/master/LICENSE.md)
