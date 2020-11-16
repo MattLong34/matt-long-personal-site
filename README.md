@@ -14,7 +14,7 @@ I'm an enthusiastic hiker, an avid reader, and a fortunate husband and father.
 
 ## Visit
 
-Visit me at [matt-long.dev](https://matt-long.dev/)!
+Visit me at [matt-long.dev](https://matt-long.dev/)
 
 ## Contact
 
