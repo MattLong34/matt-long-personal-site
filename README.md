@@ -12,6 +12,10 @@ I have experience managing dozens of employees, hundreds of volunteers, and over
 
 I'm an enthusiastic hiker, an avid reader, and a fortunate husband and father.
 
+## Visit
+
+Visit me at [matt-long.dev](https://matt-long.dev/)!
+
 ## Contact
 
 [Let's Chat!](https://www.linkedin.com/in/mattlong34/)
