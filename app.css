@@ -106,10 +106,10 @@
 		margin: 10% 1% 0% 1%;
 	}
 	#contact-list {
-		margin-left: 10%;
+		margin-left: 0%;
 	}
 	.contact-item {
-		width: 25%;
+		width: 15%;
 		margin: 5% 4% 5% 4%;
 	}
 	#contact-form {
@@ -131,9 +131,12 @@
 	#hero {
 		height: 90vh;
 	}
+	#contact-list {
+		margin-left: 10%;
+	}
 	.contact-item {
-		width: 10%;
-		margin: 2% 2% 2% 2%;
+		width: 20%;
+		margin: 3% 1% 3% 1%;
 	}
 	.link:hover {
 		color: #ff781f;
@@ -163,6 +166,12 @@ body {
 
 hr {
 	width: 80vw;
+}
+
+#small-hr {
+	width: 30vw;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .section-title {
@@ -329,6 +338,8 @@ textarea {
 
 #contact-form input[type="submit"]:hover {
 	background-color: #45a049;
+	transform: scale(1.05);
+	transition: 0.3s;
 }
 
 #contact-list {
@@ -336,7 +347,8 @@ textarea {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 5%;
+	padding-top: 20px;
+	margin-bottom: 30px;
 }
 
 .contact-logo {
