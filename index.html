@@ -140,7 +140,24 @@
     <section id="contact" class="display">
         <p class="section-title">LET'S CHAT</p>
         <hr>
-        <div id="contact-list">
+        <div id="contact-form">
+            <form action="https://formspree.io/f/xyybnvey" method="POST">
+                <label for="name">Your Name*</label>
+                <br>
+                <input type="text" name="name" placeholder="First and Last" required>
+                <br>
+                <label for="email">Your Email*</label>
+                <br>
+                <input type="email" name="_replyto" placeholder="Email" required>
+                <br>
+                <label for="message">Your Message to Me*</label>
+                <br>
+                <textarea name="message" placeholder="Hey Matt! Let's chat about..." required></textarea>
+                <br>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+            <div id="contact-list">
             <div class="contact-item">
                 <button onclick="copyEmail()" id="email-button">
                     <p>Copy Email</p>
