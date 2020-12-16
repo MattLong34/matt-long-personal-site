@@ -63,7 +63,11 @@
 		margin-top: 30px;
 	}
 	#resume-button {
-		margin-left: 6vw;
+		margin-left: 3vw;
+		width: 60vw;
+	}
+	.fa-download {
+		/* margin-left: 10px; */
 	}
 }
 
@@ -114,10 +118,11 @@
 	}
 	#contact-form {
 		margin-left: 3vw;
-		margin-top: 80px;
+		/* margin-top: 80px; */
 	}
 	#resume-button {
 		margin-left: 12vw;
+		width: 50vw;
 	}
 }
 
@@ -145,7 +150,7 @@
 		margin-left: 4vw;
 	}
 	#resume-button {
-		margin-left: 13vw;
+		margin-left: 14vw;
 	}
 }
 
@@ -170,8 +175,8 @@ hr {
 
 #small-hr {
 	width: 30vw;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .section-title {
@@ -347,7 +352,7 @@ textarea {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 20px;
+	/* padding-top: 10px; */
 	margin-bottom: 30px;
 }
 
@@ -363,11 +368,16 @@ textarea {
 	font-family: "Raleway", sans-serif;
 	font-size: 1em;
 	color: white;
-	width: 50vw;
+	/* width: 50vw; */
 	height: 50px;
 	border: none;
 	border-radius: 4px;
 	background-color: #4d5656;
+	margin-bottom: -10px;
+}
+
+.fa-download {
+	margin-right: 10px;
 }
 
 .contact-item button:hover {
